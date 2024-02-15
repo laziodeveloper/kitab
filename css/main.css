@@ -469,10 +469,10 @@ section{
 
 .newsletter form h3{
     font-size: 5.2rem;
-    color:#f3eded;
+    color:black;
     padding-bottom: .7rem;
     font-weight: normal;
-    font-family:cursive;
+    font-family:'Times New Roman', Times, serif
 }
 
 .newsletter form .box{
@@ -480,7 +480,8 @@ section{
     margin: .7rem 0;
     padding:1rem 1.2rem;
     font-size: 1.6rem;
-    color:var(--black);
+    color:black;
+    background-color: white;
     border-radius: .5rem;
     text-transform: none;
 }
@@ -820,140 +821,97 @@ section{
     }
 
 }
-.categories{
-    padding: 4% 0;
-}
-
-.box-3{
-    width: 28%;
-    float: left;
-    margin: 2%;
-}
-
-.food-menu{
-    background-color: #f1f0f0;
-    padding: 4% 0;
-}
-.food-menu-box{
-    width: 43%;
-    margin: 1%;
-    padding: 2%;
-    float: left;
-    background-color: rgb(249, 226, 226);
-    border-radius: 15px;
-}
-
-.food-menu-img{
-    width: 30%;
-    float: left;
-}
-
-.food-menu-desc{
-    width: 70%;
-    float: left;
-    margin-left: 8%;
-    color: black;
-    font-size: 3.2rem;
-}
-
-.food-price{
-    font-size: 2.2rem;
-    margin: 2% 0;
-    color: black;
-}
-.food-detail{
-    font-size: 1.2rem;
-    color: #747d8c;
-}
-
-
-.social ul{
-    list-style-type: none;
-}
-.social ul li{
-    display: inline;
-    padding: 1%;
-}
-
-
-.order{
-    width: 50%;
-    margin: 0 auto;
-}
-.input-responsive{
-    width: 96%;
-    padding: 1%;
-    margin-bottom: 3%;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-}
-.order-label{
-    margin-bottom: 1%; 
-    font-weight: bold;
-}
-
-
-
-@media only screen and (max-width:768px){
-    .logo{
-        width: 80%;
-        float: none;
-        margin: 1% auto;
-    }
-
-    .menu ul{
-        text-align: center;
-    }
-
-    .food-search input[type="search"]{
-        width: 90%;
-        padding: 2%;
-        margin-bottom: 3%;
-    }
-
-    .btn{
-        width: 91%;
-        padding: 2%;
-    }
-
-    .food-search{
-        padding: 10% 0;
-    }
-
-    .categories{
-        padding: 20% 0;
-    }
-    h2{
-        margin-bottom: 10%;
-    }
-    .box-3{
-        width: 100%;
-        margin: 4% auto;
-    }
-
-    .food-menu{
-        padding: 20% 0;
-    }
-
-    .food-menu-box{
-        width: 90%;
-        padding: 5%;
-        margin-bottom: 5%;
-    }
-    .social{
-        padding: 5% 0;
-    }
-    .order{
-        width: 100%;
-    }
-}
-.clearfix{
-    clear: both;
-    float: none;
-}
-.food-menu .container h2{
-    color: black;
+.featured .featured-slider .box{
+    margin:2rem 0;
+    position: relative;
+    overflow: hidden;
+    border:var(--border);
     text-align: center;
-
 }
+
+.featured .featured-slider .box:hover{
+    border:var(--border-hover);
+}
+
+.featured .featured-slider .box .image{
+    padding:1rem;
+    background: linear-gradient(15deg, #eee 30%, #fff 30.1%);
+}
+
+.featured .featured-slider .box:hover .image{
+    transform: translateY(6rem);
+}
+
+.featured .featured-slider .box .image img{
+    height: 25rem;
+}
+
+.featured .featured-slider .box .icons{
+    border-bottom: var(--border-hover);
+    position: absolute;
+    top:0; left:0; right: 0;
+    background: #fff;
+    z-index: 1;
+    transform: translateY(-105%);
+}
+
+.featured .featured-slider .box:hover .icons{
+    transform: translateY(0%);
+}
+
+.featured .featured-slider .box .icons a{
+    color:var(--black);
+    font-size: 2.2rem;
+    padding:1.3rem 1.5rem;
+}
+
+.featured .featured-slider .box .icons a:hover{
+    background:var(--green);
+    color:#fff;
+}
+
+.featured .featured-slider .box .content{
+    background:#eee;
+    padding:1.5rem;
+}
+
+.featured .featured-slider .box .content h3{
+    font-size: 2rem;
+    color:var(--black);
+}
+
+.featured .featured-slider .box .content .price{
+    font-size: 2.2rem;
+    color:var(--black);
+    padding-top: 1rem;
+}
+
+.featured .featured-slider .box .content .price span{
+    font-size: 1.5rem;
+    color:var(--light-color);
+    text-decoration: line-through;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+    border:var(--border-hover);
+    height:4rem;
+    width:4rem;
+    color:var(--black);
+    background: #fff;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after{
+    font-size: 2rem;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover{
+    background: var(--black);
+    color:#fff;
+}
+
+
+
+

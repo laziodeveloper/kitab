@@ -1,6 +1,6 @@
 <section class="arrivals" id="arrivals">
 
-    <h1 class="heading"> <span>Category</span> </h1>
+    <h1 class="heading"> <span>New Arrivals</span> </h1>
 
     <div class="swiper arrivals-slider">
 
@@ -11,7 +11,7 @@
                     <img src="https://raw.githubusercontent.com/KordePriyanka/Books4MU-Book-Store-Website-/main/image/book-1.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>Semester 1</h3>
+                    <h3></h3>
                 </div>
             </a>
 
@@ -92,9 +92,7 @@
 
 </section>
 
-<!-- category section ends -->
 
-<!-- deal section starts  -->
 
 <section class="deal">
 
@@ -111,9 +109,7 @@
 
 </section>
 
-<!-- deal section ends -->
 
-<!-- reviews section starts  -->
 
 <section class="reviews" id="reviews">
 
@@ -206,9 +202,6 @@
 
 </section>
 
-<!-- reviews section ends -->
-
-<!-- feedback section starts  -->
 
 <section class="blogs" id="blogs">
 
@@ -219,16 +212,13 @@
         <form action="">
             <h3>give your feedback here...</h3>
             <a href="./feedback.html" class="btn">Feedback</a>
-            <!-- <a href="./feedback.html"><input type="submit" value="feedback"> -->
+           
             </a>
         </form>
 
     </section>
 </section>
 
-<!-- feedback section ends -->
-
-<!-- footer section starts  -->
 
 <section class="footer">
 
@@ -281,9 +271,6 @@
 
 </section>
 
-<!-- footer section ends -->
-
-<!-- loader  -->
 
 <div class="loader-container">
     <img src="https://raw.githubusercontent.com/KordePriyanka/Books4MU-Book-Store-Website-/main/image/loader-img.gif" alt="">
@@ -292,7 +279,6 @@
 
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
-<!-- custom js file link  -->
 <script src="/js/main.js"></script>
 
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
